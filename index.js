@@ -30,7 +30,7 @@ try {
         return new Promise(function (resolve, reject) {
           db.collection(model.name).findOne(function (err, data) {
             if (!data) {
-              console.warn(`o <${model.name}> skip the mode ${model.name}`);
+              console.warn(`o <${model.name}> skip the model ${model.name}`);
               resolve(false);
               return;
             }
