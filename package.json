@@ -1,0 +1,32 @@
+{
+  "name": "loopback-schema-checker",
+  "version": "1.0.0",
+  "description": "model schema checker for compatibility between model files and working remote/local mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lsc": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/weflex/loopback-schema-checker.git"
+  },
+  "keywords": [
+    "model",
+    "checker",
+    "orm"
+  ],
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weflex/loopback-schema-checker/issues"
+  },
+  "homepage": "https://github.com/weflex/loopback-schema-checker#readme",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "glob": "^5.0.14",
+    "mongodb": "^2.0.43"
+  }
+}
